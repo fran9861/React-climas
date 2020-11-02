@@ -32,7 +32,7 @@ function App() {
       }
     };
     consultarAPI();
-    // esLint-disable-next-line
+    // eslint-disable-next-line
   }, [consultar]);
   let componente;
   if (error) {
